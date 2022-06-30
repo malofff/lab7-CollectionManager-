@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Client.authorizer.ClientAuthorizer</OriginalElement>
+  <nodes>
+    <node x="3728.5" y="238.0">Server.user_manager.UserManager</node>
+    <node x="2030.0" y="552.0">general.SHA1Coder</node>
+    <node x="402.0" y="552.0">exceptions.InsertException</node>
+    <node x="1660.5" y="238.0">Server.collection.CollectionManager</node>
+    <node x="318.5" y="238.0">Server.datebase.HumanBeingDataBase</node>
+    <node x="381.5" y="476.0">Client.client.Client</node>
+    <node x="768.9999999999999" y="162.0">Client.commands.ClientExitCommand</node>
+    <node x="179.0" y="162.0">Server.command.commands.AddCommand</node>
+    <node x="2604.5" y="238.0">Server.server.runnable.ThreadProcessor</node>
+    <node x="3275.0" y="319.0">Server.connection.request.RequestReaderImpl</node>
+    <node x="857.0" y="319.0">Client.commands.ClientCommandReaderImpl</node>
+    <node x="871.5" y="238.0">Client.commands.ClientCommandReader</node>
+    <node x="1891.0" y="319.0">Server.connection.response.ResponseCreatorImpl</node>
+    <node x="1395.0" y="319.0">validation.HumanBeingBuilderImpl</node>
+    <node x="1079.0" y="395.0">exceptions.EnumNotFoundException</node>
+    <node x="1082.375" y="0.0">general.Command</node>
+    <node x="3445.0" y="395.0">Server.datebase.DataBaseConnector</node>
+    <node x="0.0" y="395.0">Server.command.ServerCommand</node>
+    <node x="1905.5" y="238.0">Server.connection.response.ResponseCreator</node>
+    <node x="2125.0" y="319.0">Server.datebase.PostgreUserDataBase</node>
+    <node x="2067.0" y="395.0">exceptions.InvalidCommandType</node>
+    <node x="0.0" y="162.0">Server.command.commands.MyIdsCommand</node>
+    <node x="3496.0" y="319.0">Server.collection.ServerHumanBeing</node>
+    <node x="3168.0" y="162.0">Server.command.commands.PrintAscendingCommand</node>
+    <node x="1338.0" y="395.0">exceptions.BadPasswordException</node>
+    <node x="1510.0" y="552.0">general.Coordinates</node>
+    <node x="149.0" y="81.0">Server.command.StudyGroupCommand</node>
+    <node x="1684.0" y="552.0">Server.server.runnable.ReadThread</node>
+    <node x="3568.0" y="162.0">Server.command.commands.HistoryCommand</node>
+    <node x="784.0" y="552.0">Server.server.runnable.HandleThread</node>
+    <node x="2372.5" y="238.0">Server.connection.response.ResponseSender</node>
+    <node x="2510.0" y="552.0">Client.Client2</node>
+    <node x="1970.0" y="162.0">Server.command.commands.RemoveFirstCommand</node>
+    <node x="595.0" y="552.0">general.ResponseType</node>
+    <node x="969.0" y="552.0">general.WeaponType</node>
+    <node x="2304.0" y="395.0">exceptions.SQLNoDataException</node>
+    <node x="2835.5" y="238.0">Server.connection.request.RequestHandler</node>
+    <node x="1646.0" y="319.0">Server.collection.CollectionManagerImpl</node>
+    <node x="2188.0" y="162.0">Server.command.commands.ClearCommand</node>
+    <node x="294.0" y="319.0">Server.datebase.PostgreHumanBeingDataBase</node>
+    <node x="3048.0" y="319.0">Client.authorizer.ClientAuthorizerImpl</node>
+    <node x="0.0" y="552.0">Server.datebase.PropertyManager</node>
+    <node x="1135.0" y="162.0">Client.commands.CurrentUserCommand</node>
+    <node x="1144.5" y="238.0">validation.HumanBeingValidator</node>
+    <node x="1409.5" y="238.0">validation.HumanBeingBuilder</node>
+    <node x="816.0" y="395.0">exceptions.UnsupportedFileException</node>
+    <node x="580.0" y="319.0">Server.command.ServerCommandReaderImpl</node>
+    <node x="2202.0" y="552.0">general.Response</node>
+    <node x="2537.0" y="395.0">exceptions.InvalidFieldException</node>
+    <node x="3515.5" y="238.0">general.HumanBeing</node>
+    <node x="3752.9999999999995" y="162.0">Client.commands.ClientRegisterCommand</node>
+    <node x="594.5" y="238.0">Server.command.ServerCommandReader</node>
+    <node x="2149.5" y="238.0">Server.datebase.UserDataBase</node>
+    <node x="2358.0" y="319.0">Server.connection.response.ResponseSenderImpl</node>
+    <node x="1130.0" y="319.0">validation.HumanBeingValidatorImpl</node>
+    <node x="2993.0" y="162.0">Server.command.commands.ShowCommand</node>
+    <node x="532.0" y="162.0">Server.command.commands.RemoveGreaterCommand</node>
+    <node x="1857.0" y="552.0">Server.server.runnable.SendThread</node>
+    <node x="217.5" y="476.0">Server.server.Server</node>
+    <node x="1581.0" y="395.0">exceptions.NotAuthorizeException</node>
+    <node x="2359.0" y="162.0">Client.commands.ExecuteScriptCommand</node>
+    <node x="2590.0" y="319.0">Server.server.runnable.ThreadProcessorImpl</node>
+    <node x="204.0" y="395.0">Server.server.ServerApp</node>
+    <node x="2766.0" y="395.0">exceptions.SQLUniqueException</node>
+    <node x="3667.0" y="395.0">general.LimitedQueue</node>
+    <node x="208.0" y="552.0">exceptions.ScriptException</node>
+    <node x="3714.0" y="319.0">Server.user_manager.UserManagerImpl</node>
+    <node x="2788.0" y="552.0">Client.Main</node>
+    <node x="3062.5" y="238.0">Client.authorizer.ClientAuthorizer</node>
+    <node x="2995.0" y="395.0">Server.collection.HumanBeingShower</node>
+    <node x="1331.0" y="552.0">general.RequestType</node>
+    <node x="3289.0" y="552.0">general.IO</node>
+    <node x="14.5" y="238.0">Server.connection.ServerConnectionManager</node>
+    <node x="2361.0" y="552.0">general.Request</node>
+    <node x="2788.0" y="162.0">Client.commands.ClientHelpCommand</node>
+    <node x="3289.0" y="238.0">Server.connection.request.RequestReader</node>
+    <node x="2651.0" y="552.0">general.Mood</node>
+    <node x="1150.0" y="552.0">validation.InputChecker</node>
+    <node x="9.0" y="476.0">Server.command.commands.ExitCommand</node>
+    <node x="1349.0" y="162.0">Client.commands.ClientAuthCommand</node>
+    <node x="1824.0" y="395.0">exceptions.UserExistenceException</node>
+    <node x="965.9999999999999" y="162.0">Server.command.commands.HelpCommand</node>
+    <node x="368.0" y="395.0">Client.client.ClientApp</node>
+    <node x="2917.0" y="552.0">Server.Main</node>
+    <node x="346.0" y="162.0">Server.command.commands.UpdateCommand</node>
+    <node x="528.0" y="395.0">exceptions.CommandIsNotExistException</node>
+    <node x="2582.0" y="162.0">Server.command.commands.ShowMineCommand</node>
+    <node x="1750.0" y="162.0">Server.command.commands.RemoveByIdCommand</node>
+    <node x="3046.0" y="552.0">general.User</node>
+    <node x="1873.5" y="81.0">general.AbstractCommand</node>
+    <node x="2821.0" y="319.0">Server.connection.request.RequestHandlerImpl</node>
+    <node x="3403.0" y="162.0">Server.command.commands.InfoCommand</node>
+    <node x="0.0" y="319.0">Server.connection.ServerConnectionManagerImpl</node>
+    <node x="3221.0" y="395.0">exceptions.NotOwnerException</node>
+    <node x="1554.0" y="162.0">Server.command.commands.ShowFullCommand</node>
+    <node x="3171.0" y="552.0">general.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Server.datebase.PostgreHumanBeingDataBase" target="Server.datebase.HumanBeingDataBase" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.connection.response.ResponseSenderImpl" target="Server.connection.response.ResponseSender" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.ExitCommand" target="Server.command.ServerCommand" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Client.client.Client" target="Client.client.ClientApp" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.server.Server" target="Server.server.ServerApp" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.HistoryCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="3650.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.connection.request.RequestHandlerImpl" target="Server.connection.request.RequestHandler" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.ShowCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="3070.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.AddCommand" target="Server.command.StudyGroupCommand" relationship="REALIZATION">
+      <point x="-36.75" y="-15.5" />
+      <point x="215.75" y="142.0" />
+      <point x="247.5" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.PrintAscendingCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="3275.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Client.commands.ClientRegisterCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="3855.9999999999995" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.RemoveGreaterCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="54.25" y="-15.5" />
+      <point x="694.75" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.collection.CollectionManagerImpl" target="Server.collection.CollectionManager" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.RemoveFirstCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2069.0" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Client.authorizer.ClientAuthorizerImpl" target="Client.authorizer.ClientAuthorizer" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.user_manager.UserManagerImpl" target="Server.user_manager.UserManager" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.ServerCommandReaderImpl" target="Server.command.ServerCommandReader" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="validation.HumanBeingValidatorImpl" target="validation.HumanBeingValidator" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.ClearCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2263.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.MyIdsCommand" target="Server.command.StudyGroupCommand" relationship="REALIZATION">
+      <point x="-39.75" y="-15.5" />
+      <point x="39.75" y="142.0" />
+      <point x="247.5" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Client.commands.ClientExitCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="857.4999999999999" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.StudyGroupCommand" target="general.Command" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="247.5" y="56.0" />
+      <point x="1112.375" y="56.0" />
+      <point x="-30.0" y="15.5" />
+    </edge>
+    <edge source="Server.collection.ServerHumanBeing" target="general.HumanBeing" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Client.commands.ClientHelpCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2880.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.HelpCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1040.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Client.commands.ExecuteScriptCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2460.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.AddCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="36.75" y="-15.5" />
+      <point x="289.25" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.UpdateCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="41.5" y="-15.5" />
+      <point x="470.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.UpdateCommand" target="Server.command.StudyGroupCommand" relationship="REALIZATION">
+      <point x="-41.5" y="-15.5" />
+      <point x="387.5" y="142.0" />
+      <point x="247.5" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Client.commands.CurrentUserCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1232.0" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.connection.ServerConnectionManagerImpl" target="Server.connection.ServerConnectionManager" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.RemoveByIdCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1850.0" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.ShowMineCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2675.0" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.datebase.PostgreUserDataBase" target="Server.datebase.UserDataBase" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.connection.request.RequestReaderImpl" target="Server.connection.request.RequestReader" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.MyIdsCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="39.75" y="-15.5" />
+      <point x="119.25" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.connection.response.ResponseCreatorImpl" target="Server.connection.response.ResponseCreator" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Client.commands.ClientCommandReaderImpl" target="Client.commands.ClientCommandReader" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="general.AbstractCommand" target="general.Command" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1959.5" y="56.0" />
+      <point x="1172.375" y="56.0" />
+      <point x="30.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.InfoCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="3475.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.server.runnable.ThreadProcessorImpl" target="Server.server.runnable.ThreadProcessor" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.RemoveGreaterCommand" target="Server.command.StudyGroupCommand" relationship="REALIZATION">
+      <point x="-54.25" y="-15.5" />
+      <point x="586.25" y="142.0" />
+      <point x="247.5" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Client.commands.ClientAuthCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1441.5" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Server.command.commands.ShowFullCommand" target="general.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1642.0" y="132.0" />
+      <point x="1959.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="validation.HumanBeingBuilderImpl" target="validation.HumanBeingBuilder" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.39277456647398845" showDependencies="false" x="1654.009944878987" y="520.756575138839" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
